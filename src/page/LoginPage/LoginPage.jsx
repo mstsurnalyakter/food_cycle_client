@@ -10,7 +10,7 @@ const LoginPage = () => {
         <input
           type="text"
           placeholder="User ID"
-          className="rounded-full text-xl p-3 placeholder:text-primary font-bold border-2 border-primary outline-none text-primary w-full "
+          className="rounded-full text-xl p-3 placeholder:text-primary placeholder:font-semibold border-2 border-primary outline-none text-primary w-full "
         />
         <Link to={"/login"} className="w-full">
           <CommonButton text={"login"} />
