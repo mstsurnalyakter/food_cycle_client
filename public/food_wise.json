@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Smart Shopping",
+    "image": "https://i.postimg.cc/tJ854VJ7/smart-shopping.png",
+    "details_page_image":"https://i.postimg.cc/NfY8pYX3/smart-shopping-detail.png",
+    "details":[
+      {
+        "id":"01",
+        "icon": "https://i.postimg.cc/BvdHDGsw/planner.png",
+        "mark_text": "Make a Meal Plan",
+        "description": "Plan your meals for the week to avoid impulse purchases and reduce food waste."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/nhSvFDWx/shopping-cart.png",
+        "mark_text": "Buy Only What You Need",
+        "description": "Avoid buying excessive amounts of food, especially perishable items."
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/g22VbDN4/pantry.png",
+        "mark_text": "Check Your Pantry",
+        "description": "Before shopping, inventory your pantry and refrigerator to avoid buying duplicates."
+      }
+    ]
+  },
+  {
+    "title": "Proper Storage",
+    "image": "https://i.postimg.cc/x8X5QP0W/proper-storage.png",
+    "details_page_image": "https://i.postimg.cc/4xjm2bMY/proper-storage-details.png",
+    "details": [
+      {
+        "id": "01",
+        "icon": "https://i.postimg.cc/jjNCpn0Z/pantry.png",
+        "mark_text": "Store Food Correctly",
+        "description": "Learn the optimal storage conditions for different foods, such as refrigeration, freezing, or storing in a cool, dark place."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/V6Wv6yNt/pantry2.png",
+        "mark_text": "",
+        "description": ""
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/FzFRkPfB/pantry3.png",
+        "mark_text": "Use First-In, First-Out",
+        "description": "Rotate your food items, using older items first."
+      }
+    ]
+  },
+  {
+    "title": "Creative Cooking",
+    "image": "https://i.postimg.cc/hvYCQ5yD/creative-cooking.png",
+    "details_page_image": "https://i.postimg.cc/j2jxSLmV/Cooking-pana.png",
+    "details": [
+      {
+        "id":"01",
+        "icon": "https://i.postimg.cc/0Np2WgD4/ready-to-eat.png",
+        "mark_text": "Cook with Leftovers",
+        "description": "Get creative with leftovers by turning them into new dishes like soups, stews, or stir-fries."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/V6Wv6yNt/pantry2.png",
+        "mark_text": "Use Imperfect Produce",
+        "description": "Don't let misshapen or slightly bruised produce go to waste. Use them in smoothies, soups, or sauces."
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/FzFRkPfB/pantry3.png",
+        "mark_text": "Freeze Excess Food",
+        "description": "Freeze portions of meals or ingredients for future use."
+      }
+    ]
+  },
+  {
+    "title": "Mindful Eating",
+    "image": "https://i.postimg.cc/MHHPTSY3/mindful-eating.png",
+    "details_page_image": "",
+    "details": [
+      {
+        "id":"01",
+        "icon": "https://i.postimg.cc/0Np2WgD4/ready-to-eat.png",
+        "mark_text": "Portion Control",
+        "description": "Serve yourself appropriate portions to avoid overeating and food waste."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/V6Wv6yNt/pantry2.png",
+        "mark_text": "Listen to Your Body",
+        "description": "Eat when you're hungry and stop when you're satisfied."
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/FzFRkPfB/pantry3.png",
+        "mark_text": "Avoid Emotional Eating",
+        "description": "Find healthy ways to manage stress and emotions, rather than turning to food."
+      }
+    ]
+  },
+  {
+    "title": "Composting and Recycling",
+    "image": "https://i.postimg.cc/XJV1RFBb/recycling.jpg",
+    "details_page_image": "",
+    "details": [
+      {
+        "id":"01",
+        "icon": "https://i.postimg.cc/0Np2WgD4/ready-to-eat.png",
+        "mark_text": "Compost Food Scraps",
+        "description": "Compost food scraps like fruit peels, vegetable cuttings, and coffee grounds to create nutrient-rich soil."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/V6Wv6yNt/pantry2.png",
+        "mark_text": "Recycle Packaging",
+        "description": "Properly recycle food packaging materials, such as cardboard, plastic, and aluminum."
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/FzFRkPfB/pantry3.png",
+        "mark_text": "Donate Excess Food",
+        "description": "Donate excess food to local food banks or shelters to help those in need."
+      }
+    ]
+  },
+  {
+    "title": "Food Donating",
+    "image": "https://i.postimg.cc/dtXXhLp2/food-donating.png",
+    "details_page_image": "",
+    "details": [
+      {
+        "id": "01",
+        "icon": "https://i.postimg.cc/0Np2WgD4/ready-to-eat.png",
+        "mark_text": "Redirects Surplus Food",
+        "description": "Food donation connects surplus or unsold food from businesses, farms, and individuals with those in need, keeping edible food out of landfills."
+      },
+      {
+        "id": "02",
+        "icon": "https://i.postimg.cc/V6Wv6yNt/pantry2.png",
+        "mark_text": "Encourages Responsible Policies",
+        "description": "Tax incentives, liability protection, and legislation encourage businesses to donate food safely and confidently."
+      },
+      {
+        "id": "03",
+        "icon": "https://i.postimg.cc/FzFRkPfB/pantry3.png",
+        "mark_text": "Builds Community Support",
+        "description": "Programs like food banks, community fridges, and rescue organizations create accessible ways to share food, directly benefiting local communities and reducing waste."
+      }
+    ]
+  }
+]
