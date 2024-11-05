@@ -10,7 +10,7 @@ const StartPage = () => {
         <p className="text-primary mt-1">Food waste management & Recycle</p>
       </div>
       <div className="w-full md:w-1/2 flex items-center justify-center">
-        <Link to={"/d"} className='w-full'>
+        <Link to={"/access_page"} className='w-full'>
           {/* <button className="btn bg-primary text-white hover:bg-primary w-full  ">
             Get Started
           </button> */}
