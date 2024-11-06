@@ -1,14 +1,17 @@
 [
   {
     "title": "Tips For Reducing Food Waste",
+    "su_url":"food_wise",
     "image": "https://i.postimg.cc/tRF7SxtT/food-waste.png"
   },
   {
     "title": "Food Freshness Guid",
+    "su_url":"freshness_guid",
     "image": "https://i.postimg.cc/Vs9LBcm0/freshness-guid.png"
   },
   {
     "title": "Donate Your  Surplus",
+    "su_url": "donate_surplus",
     "image": "https://i.postimg.cc/BQqZmwnY/surplus.png"
   }
 ]

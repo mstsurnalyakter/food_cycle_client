@@ -1,10 +1,11 @@
 import React from 'react'
 import useCategories from '../hooks/useCategories'
 import Spinner from './Spinner';
+import CategoryCard from './CategoryCard';
 
 const Adult = () => {
     const { categories, categoriesLoading, categoriesRefetch }= useCategories();
-    console.log(categories);
+
     if (categoriesLoading) {
       return (
         <div className="flex items-center justify-center mt-10">
@@ -13,7 +14,11 @@ const Adult = () => {
       );
     }
   return (
-    <div>Adult</div>
+    <div className='flex flex-col gap-10 my-12  items-center justify-center'>
+        {
+            categories?.length > 0 && categories.map(category=><CategoryCard category={category} id={category?._id} />)
+        }
+    </div>
   )
 }
 
