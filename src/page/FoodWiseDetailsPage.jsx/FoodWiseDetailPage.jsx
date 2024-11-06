@@ -23,10 +23,7 @@ const FoodWiseDetailPage = () => {
 
      const {details_page_image,details,title} = data || [];
 
-     console.log(data);
-
-
-     console.log(id);
+    
   return (
     <div>
         <FoodWiseDetailPageHeader image={details_page_image} title={title} />

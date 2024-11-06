@@ -7,6 +7,7 @@ import HomePage from "../page/HomePage/HomePage";
 import FoodWise from "../page/FoodWise/FoodWise";
 import FoodWiseDetailPage from "../page/FoodWiseDetailsPage.jsx/FoodWiseDetailPage";
 import Child from "../page/Child/Child";
+import ChildContentDetail from "../page/ChildContentDetail/ChildContentDetail";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/child",
         element: <Child />,
+      },
+      {
+        path: "/child_content_detail/:id",
+        element: <ChildContentDetail />,
       },
     ],
   },

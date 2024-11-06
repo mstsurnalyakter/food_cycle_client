@@ -1,15 +1,15 @@
 import React from 'react'
-import useChildContent from '../hooks/useChildContent'
 import { Link } from 'react-router-dom';
 
-const ChildItem = ({content}) => {
+const ExamItem = ({exam,id}) => {
 
-    const {title, image,items,details,_id} = content || {};
 
+    const {image,items,exam_details,title} = exam || {};
+    console.log(exam);
   return (
     <Link
-      to={`/child_content_detail/${_id}`}
-      className="flex rounded-3xl bg-secondary items-center gap-5"
+      to={`/quiz/${id}`}
+      className="flex rounded-3xl bg-secondary w-96 items-center gap-5"
     >
       <div className="">
         <img src={image} alt="" />
@@ -31,4 +31,4 @@ const ChildItem = ({content}) => {
   );
 }
 
-export default ChildItem
+export default ExamItem

@@ -14,7 +14,7 @@ const Child = () => {
           </div>
         );
       }
-   console.log(childContent);
+
   return (
     <div className="my-12 ">
       <NavigateLink link="" />
