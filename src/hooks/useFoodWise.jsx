@@ -1,12 +1,13 @@
 import React from 'react'
 import useAxiosCommon from './useAxiosCommon';
+import { useQuery } from '@tanstack/react-query';
 
 const useFoodWise = () => {
     const axiosCommon = useAxiosCommon();
     const {
-      data: foodWise = [],
-      isLoading: foodWiseLoading,
-      refetch: foodWiseRefetch,
+      data: foodWises = [],
+      isLoading: foodWisesLoading,
+      refetch: foodWisesRefetch,
     } = useQuery({
       queryKey: ["foodWise"],
       queryFn: async () => {
@@ -14,7 +15,7 @@ const useFoodWise = () => {
         return data;
       },
     });
-    return { foodWise, foodWiseLoading, foodWiseRefetch };
+    return { foodWises, foodWisesLoading, foodWisesRefetch };
 }
 
 export default useFoodWise

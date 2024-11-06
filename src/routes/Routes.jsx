@@ -4,6 +4,7 @@ import StartPage from "../page/StartPage/StartPage";
 import AccessPage from "../page/AccessPage/AccessPage";
 import LoginPage from "../page/LoginPage/LoginPage";
 import HomePage from "../page/HomePage/HomePage";
+import FoodWise from "../page/FoodWise/FoodWise";
 
 const router = createBrowserRouter([
   {
@@ -16,15 +17,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/access_page",
-        element:<AccessPage/>
+        element: <AccessPage />,
       },
       {
         path: "/login",
-        element:<LoginPage/>
+        element: <LoginPage />,
       },
       {
         path: "/home_page",
-        element:<HomePage/>
+        element: <HomePage />,
+      },
+      {
+        path: "/home_page/food_wise",
+        element: <FoodWise />,
       },
     ],
   },
