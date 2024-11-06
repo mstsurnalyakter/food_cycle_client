@@ -5,6 +5,7 @@ import AccessPage from "../page/AccessPage/AccessPage";
 import LoginPage from "../page/LoginPage/LoginPage";
 import HomePage from "../page/HomePage/HomePage";
 import FoodWise from "../page/FoodWise/FoodWise";
+import FoodWiseDetailPage from "../page/FoodWiseDetailsPage.jsx/FoodWiseDetailPage";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/home_page/food_wise",
         element: <FoodWise />,
+      },
+      {
+        path: "/food_wise/:id",
+        element: <FoodWiseDetailPage />,
       },
     ],
   },

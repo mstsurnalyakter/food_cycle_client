@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const FoodWiseCard = ({ foodWise }) => {
   const {_id,title,image,details_page_image,details}= foodWise || {};
   return (
-    <Link to={`/home_page/food_wise/${_id}`} className="relative">
+    <Link to={`/food_wise/${_id}`} className="relative">
       <figure>
         <img
           className="w-full h-48 sm:h-56 lg:h-80 rounded-3xl"
