@@ -6,6 +6,7 @@ import LoginPage from "../page/LoginPage/LoginPage";
 import HomePage from "../page/HomePage/HomePage";
 import FoodWise from "../page/FoodWise/FoodWise";
 import FoodWiseDetailPage from "../page/FoodWiseDetailsPage.jsx/FoodWiseDetailPage";
+import Child from "../page/Child/Child";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/food_wise/:id",
         element: <FoodWiseDetailPage />,
+      },
+      {
+        path: "/child",
+        element: <Child />,
       },
     ],
   },
