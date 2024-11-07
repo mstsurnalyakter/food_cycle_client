@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import useAxiosCommon from "../../hooks/useAxiosCommon";
+import NavigateLink from "../../components/NavigateLink";
 
 const QuizPage = () => {
   const { commonId } = useParams();
@@ -52,8 +53,10 @@ const QuizPage = () => {
   };
 
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-bold text-center mb-8">Student Quiz</h1>
+    <div className="container mt-5 mx-auto p-8">
+      <div className="mb-6">
+        <NavigateLink link="/home_page" />
+      </div>
 
       {questions.map((question, index) => {
         // Check if the answer is correct for the current question
@@ -62,7 +65,7 @@ const QuizPage = () => {
         return (
           <div
             key={question.exam_detail_id}
-            className={`p-4 border rounded-lg mb-6 ${
+            className={`p-4 border rounded-t-3xl rounded-b-3xl w-98 mb-6 bg-secondary ${
               isSubmitted
                 ? isCorrect
                   ? "border-green-500"
@@ -70,8 +73,8 @@ const QuizPage = () => {
                 : ""
             }`}
           >
-            <h2 className="text-xl font-semibold mb-4">
-              {question.exam_detail_title}
+            <h2 className="font-medium text-white p-2 mx-[-16px] mt-[-16px] rounded-t-3xl mb-4 bg-primary">
+              <span>{index + 1}.</span> {question.exam_detail_title}
             </h2>
             {question.exam_detail_items.map((item, i) => (
               <label key={i} className="block mb-2">
@@ -100,21 +103,23 @@ const QuizPage = () => {
       })}
 
       {!isSubmitted && (
-        <button
-          onClick={handleSubmit}
-          className="bg-blue-500 text-white py-2 px-4 rounded"
-        >
-          Submit
-        </button>
+        <div className="flex items-center justify-center">
+          <button
+            onClick={handleSubmit}
+            className="bg-primary rounded-3xl text-white py-2 px-5 "
+          >
+            Submit
+          </button>
+        </div>
       )}
 
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
-          <div className="bg-white p-6 rounded shadow-lg w-96">
-            <h2 className="text-xl font-semibold mb-4">
-              Congratulations! Your Score: {score}/{questions.length}
+          <div className="bg-secondary p-6 rounded-t-3xl rounded-b-3xl shadow-lg w-96">
+            <h2 className="text-xl font-semibold mb-4 bg-primary text-white p-3 text-center mx-[-24px] rounded-t-3xl mt-[-24px]">
+              Congratulations!
             </h2>
-            <ul>
+            {/* <ul>
               {result.map((question, index) => (
                 <li
                   key={index}
@@ -132,13 +137,18 @@ const QuizPage = () => {
                   </span>
                 </li>
               ))}
-            </ul>
-            <button
-              onClick={() => setShowModal(false)}
-              className="mt-4 bg-gray-500 text-white py-2 px-4 rounded"
-            >
-              Close
-            </button>
+            </ul> */}
+            <div className="flex flex-col items-center justify-center">
+              <p className="">
+                Your have got: {score} out of {questions.length}
+              </p>
+              <button
+                onClick={() => setShowModal(false)}
+                className="mt-4 bg-primary rounded-3xl text-white py-2 px-6"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       )}
