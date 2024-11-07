@@ -16,7 +16,7 @@ const FoodWise = () => {
       console.log(foodWises);
   return (
     <div className='mt-10 mb-16'>
-        <NavigateLink link="llll" />
+        <NavigateLink link="" />
       <h2 className="text-primary text-2xl font-semibold mt-2">Food wise</h2>
       <p className='font-medium mt-1'>Tips For Reducing Food Waste</p>
 
