@@ -10,6 +10,7 @@ import Child from "../page/Child/Child";
 import ChildContentDetail from "../page/ChildContentDetail/ChildContentDetail";
 import QuizPage from "../page/QuizPage/QuizPage";
 import FoodFreshnessGuid from "../page/FoodFreshnessGuid/FoodFreshnessGuid";
+import FoodFreshnessGuidDetails from "../page/FoodFreshnessGuidDetails/FoodFreshnessGuidDetails";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/food_freshness_guid",
         element: <FoodFreshnessGuid />,
+      },
+      {
+        path: "/food_freshness_guid_details/:id",
+        element: <FoodFreshnessGuidDetails />,
       },
     ],
   },

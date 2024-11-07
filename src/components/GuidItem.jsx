@@ -6,7 +6,7 @@ const GuidItem = ({ content }) => {
   console.log(content);
   return (
     <Link
-      to={`/guid/${id}`}
+      to={`/food_freshness_guid_details/${id}`}
       className="flex rounded-3xl bg-secondary w-96 items-center gap-5"
     >
       <div className="">

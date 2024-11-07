@@ -10,6 +10,7 @@ const FoodFreshnessGuid = () => {
       foodFreshnessGuidLoading,
       foodFreshnessGuidRefetch,
     } = useFoodFreshnessGuid();
+    console.log(foodFreshnessGuid);
      if (foodFreshnessGuidLoading) {
        return (
          <div className="flex items-center justify-center mt-10">

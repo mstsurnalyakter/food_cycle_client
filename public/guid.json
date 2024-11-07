@@ -7,7 +7,7 @@
         "Growth of bacteria due to improper temperature.",
         " Exposure to air leading to oxidation, discoloration and moisture loss."
       ],
-      "image": "https://i.postimg.cc/Gm0QpwtX/beef.png",
+      "detailsImage": "https://i.postimg.cc/Gm0QpwtX/beef.png",
       "home_solutions": [
         "Refrigeration: Store beef in the coldest part of the fridge (below 4°C or 40°F) and use it within 3-5 days.",
         "Freezing: Wrap tightly in plastic wrap, aluminum foil, or vacuum-seal before freezing to prevent freezer burn.",
@@ -25,7 +25,7 @@
     "title": "Bread",
     "details": {
       "causes_spoilage": ["Mold growth due to moisture", "Staling due to air exposure and the crystallization of  starch molecules."],
-      "image": "https://i.postimg.cc/TY50GYdy/bread.png",
+      "detailsImage": "https://i.postimg.cc/TY50GYdy/bread.png",
       "home_solutions": ["Room Temperature Storage: Store bread in a bread box or wrap it in a cloth to maintain moderate humidity and reduce mold growth.", "Freezing: Bread can be frozen to prevent spoilage and maintain freshness. Wrap it tightly in plastic wrap before placing it in the freezer.", "Avoid Refrigeration: Avoid storing bread in the refrigerator, as it leads to faster staling."],
       "market_solutions": ["Packaging: Keep beef stored at temperatures below 4°C to slow bacterial growth", " Preservative Use: Calcium Propionate: This antifungal agent is used to extend bread shelf life by preventing mold growth."]
     }
@@ -35,7 +35,7 @@
     "title": "Tomato",
     "details": {
       "causes_spoilage": ["High moisture content leads to mold and bacteria growth.", "Mechanical damage (e.g., bruising) can accelerate spoilage."],
-      "image": "https://i.postimg.cc/66mcDGXJ/tomato.png",
+      "detailsImage": "https://i.postimg.cc/66mcDGXJ/tomato.png",
       "home_solutions": ["Room Temperature Storage: Store tomatoes at room temperature (above 10°C or 50°F) to retain their flavor", "Avoid Refrigeration: Refrigerating tomatoes can affect their taste and texture negatively."],
       "market_solutions": ["Packaging: Use well-ventilated boxes to ensure adequate airflow.", "Temperature Control: Store tomatoes in a cool area, but not refrigerated.", "Preservative Use: No specific preservatives are recommended for tomatoes, but good handling practices and controlled temperatures help extend shelf life."]
     }
