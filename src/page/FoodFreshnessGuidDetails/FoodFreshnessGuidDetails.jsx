@@ -60,7 +60,7 @@ const FoodFreshnessGuidDetails = () => {
             ))}
           </ul>
         </div>
-        <div className="bg-primary  space-y-6 px-10 min-h-[calc(100vh-337px)] mx-[-20px] mt-36 rounded-t-3xl relative">
+        <div className="bg-primary  space-y-6 px-10 min-h-[calc(100vh-369px)] sm:min-h-[calc(100vh-300px)]  mx-[-20px] mt-36 rounded-t-3xl relative">
           <div className="absolute top-[-100px] right-0">
             <img src={detailsImage} alt="" />
           </div>
