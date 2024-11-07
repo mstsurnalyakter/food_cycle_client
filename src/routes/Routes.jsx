@@ -11,6 +11,7 @@ import ChildContentDetail from "../page/ChildContentDetail/ChildContentDetail";
 import QuizPage from "../page/QuizPage/QuizPage";
 import FoodFreshnessGuid from "../page/FoodFreshnessGuid/FoodFreshnessGuid";
 import FoodFreshnessGuidDetails from "../page/FoodFreshnessGuidDetails/FoodFreshnessGuidDetails";
+import DonateSurplus from "../page/DonateSurplus/DonateSurplus";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: "/food_freshness_guid_details/:id",
         element: <FoodFreshnessGuidDetails />,
+      },
+      {
+        path: "/home_page/donate_surplus",
+        element: <DonateSurplus />,
       },
     ],
   },
