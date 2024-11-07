@@ -54,7 +54,7 @@ const router = createBrowserRouter([
         element: <QuizPage />,
       },
       {
-        path: "/food_freshness_guid",
+        path: "/home_page/food_freshness_guid",
         element: <FoodFreshnessGuid />,
       },
       {
