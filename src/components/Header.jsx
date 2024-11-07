@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <header className="bg-secondary px-10 py-14 rounded-b-[35px]">
+      <header className="bg-secondary mx-[-20px] px-10 py-14 rounded-b-[35px]">
         <div className="flex justify-between">
           <div className="flex gap-2">
             <img src="/account.png" alt="" />
