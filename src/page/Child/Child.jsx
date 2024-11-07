@@ -23,7 +23,7 @@ const Child = () => {
           <h2 className="text-primary text-2xl font-semibold mt-2">
             For Kid Under 12
           </h2>
-          <p className="font-medium mt-1">Vedio animations - Exam</p>
+          <p className="font-medium mt-1">Video animations - Exam</p>
         </div>
         <button>See All</button>
       </div>
