@@ -5,7 +5,7 @@ const CategoryCard = ({ category }) => {
     const {title,sub_url,image} = category || {};
     console.log(category);
   return (
-    <Link to={`${sub_url}`}  className="w-96  relative">
+    <Link to={`${sub_url}`}  className="md:w-96 w-80 relative">
       <figure>
         <img
         className='w-full rounded-3xl'
