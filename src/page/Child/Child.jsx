@@ -17,8 +17,8 @@ const Child = () => {
 
   return (
     <div className="my-12 ">
-      <NavigateLink link="" />
-      <div className='flex justify-between items-center'>
+      <NavigateLink link="/home_page" />
+      <div className="flex justify-between items-center">
         <div>
           <h2 className="text-primary text-2xl font-semibold mt-2">
             For Kid Under 12
@@ -28,11 +28,12 @@ const Child = () => {
         <button>See All</button>
       </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
-          {
-            childContent?.length > 0 && childContent?.map(content=><ChildItem content={content} key={content?._id} />)
-          }
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        {childContent?.length > 0 &&
+          childContent?.map((content) => (
+            <ChildItem content={content} key={content?._id} />
+          ))}
+      </div>
     </div>
   );
 }

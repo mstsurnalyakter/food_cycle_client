@@ -47,7 +47,7 @@ const FoodFreshnessGuidDetails = () => {
     );
   return (
     <div className="mt-12 ">
-      <NavigateLink link="" />
+      <NavigateLink link="/home_page/food_freshness_guid" />
       <div>
         <h2 className="text-primary   text-2xl font-semibold mt-2">{title}</h2>
         <div>

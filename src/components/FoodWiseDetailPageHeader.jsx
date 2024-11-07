@@ -8,7 +8,7 @@ const FoodWiseDetailPageHeader = ({ image, title }) => {
     <>
       <header className="bg-primary px-10 py-14 rounded-b-[35px] mx-[-20px]">
         <div className="">
-          <Link to={"link"}>
+          <Link to="/home_page/food_wise">
             <img src="/right-arrow2.png" alt="right-arrow" />
           </Link>
 

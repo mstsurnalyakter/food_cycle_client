@@ -36,7 +36,7 @@ const DonateSurplus = () => {
     ];
     return (
       <div className="mt-10 mb-16">
-        <NavigateLink link="llll" />
+        <NavigateLink link="/home_page" />
         <h2 className="text-primary text-2xl font-semibold mt-2">FoodCycle</h2>
         <p className="font-medium mt-1">Donate Your Surplus</p>
 
@@ -56,7 +56,7 @@ const DonateSurplus = () => {
                 </div>
               ))}
           </div>
-          <div className='flex items-center justify-center'>
+          <div className="flex items-center justify-center">
             <button className="btn btn-primary px-4">Next</button>
           </div>
         </div>

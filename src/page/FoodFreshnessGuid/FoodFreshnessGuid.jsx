@@ -20,7 +20,7 @@ const FoodFreshnessGuid = () => {
      }
    return (
      <div className="my-12 ">
-       <NavigateLink link="" />
+       <NavigateLink link="/home_page" />
        <div className="flex justify-between items-center">
          <div>
            <h2 className="text-primary text-2xl font-semibold mt-2">

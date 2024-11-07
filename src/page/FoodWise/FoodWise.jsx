@@ -15,10 +15,10 @@ const FoodWise = () => {
       }
       console.log(foodWises);
   return (
-    <div className='mt-10 mb-16'>
-        <NavigateLink link="" />
+    <div className="mt-10 mb-16">
+      <NavigateLink link="/home_page" />
       <h2 className="text-primary text-2xl font-semibold mt-2">Food wise</h2>
-      <p className='font-medium mt-1'>Tips For Reducing Food Waste</p>
+      <p className="font-medium mt-1">Tips For Reducing Food Waste</p>
 
       <div className="grid grid-cols-2  md:grid-cols-3 gap-10 my-12  items-center justify-center">
         {foodWises?.length > 0 &&
