@@ -11,9 +11,6 @@ const StartPage = () => {
       </div>
       <div className="w-full md:w-1/2 flex items-center justify-center">
         <Link to={"/access_page"} className='w-full'>
-          {/* <button className="btn bg-primary text-white hover:bg-primary w-full  ">
-            Get Started
-          </button> */}
           <CommonButton text={"Get Started"} />
         </Link>
       </div>
