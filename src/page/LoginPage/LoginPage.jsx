@@ -12,7 +12,7 @@ const LoginPage = () => {
           placeholder="User ID"
           className="rounded-full text-xl p-3 placeholder:text-primary placeholder:font-semibold border-2 border-primary outline-none text-primary w-full "
         />
-        <Link to={"/login"} className="w-full">
+        <Link to={"/home_page"} className="w-full">
           <CommonButton text={"login"} />
         </Link>
       </div>
