@@ -1,0 +1,230 @@
+[
+  {
+    "commonId": "lesson1",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  },
+  {
+    "commonId": "lesson2",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  },
+  {
+    "commonId": "lesson3",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  },
+  {
+    "commonId": "lesson3",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  },
+  {
+    "commonId": "lesson4",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  },
+  {
+    "commonId": "lesson5",
+    "exam_details": [
+      {
+        "exam_detail_id": "1",
+        "exam_detail_title": "What is food waste?",
+        "exam_detail_items": [
+          "Eating all the food on your plate",
+          "Throwing away food we could still eat",
+          "Cooking a delicious meal",
+          "Sharing food with friends"
+        ],
+        "answer": "Throwing away food we could still eat"
+      },
+      {
+        "exam_detail_id": "2",
+        "exam_detail_title": "What can we do instead of wasting food?",
+        "exam_detail_items": [
+          "Throw it away quickly",
+          "Save it for later or share it",
+          "Hide it in the fridge and forget about it",
+          "Buy even more food"
+        ],
+        "answer": "Save it for later or share it"
+      },
+      {
+        "exam_detail_id": "3",
+        "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+        "exam_detail_items": [
+          "Because we don’t buy enough",
+          "Because we eat too much",
+          "Because we buy more food than we need",
+          "Because food tastes good"
+        ],
+        "answer": "Because we buy more food than we need"
+      }
+    ]
+  }
+]

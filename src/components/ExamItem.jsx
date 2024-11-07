@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const ExamItem = ({exam,id}) => {
+const ExamItem = ({ exam, commonId }) => {
+  const { image, items, title } = exam || {};
 
-
-    const {image,items,exam_details,title} = exam || {};
-    console.log(exam);
+  console.log(exam);
   return (
     <Link
-      to={`/quiz/${id}`}
+      to={`/quiz/${commonId}`}
       className="flex rounded-3xl bg-secondary w-96 items-center gap-5"
     >
       <div className="">
@@ -29,6 +28,6 @@ const ExamItem = ({exam,id}) => {
       </div>
     </Link>
   );
-}
+};
 
 export default ExamItem

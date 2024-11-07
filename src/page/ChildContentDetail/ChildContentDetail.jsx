@@ -20,6 +20,7 @@ const ChildContentDetail = () => {
         return data;
       },
     });
+
       if (isLoading) {
         return (
           <div className="flex items-center justify-center mt-48">
@@ -27,8 +28,9 @@ const ChildContentDetail = () => {
           </div>
         );
       }
+      console.log(data);
 
-    const {details,_id} = data || {};
+    const {details,commonId} = data || {};
     const { title, description, exam, video_completed } = details || {};
 
 
@@ -60,7 +62,7 @@ const ChildContentDetail = () => {
       </div>
       <div>
         <h2 className="text-primary font-bold mb-5  text-3xl">Exam</h2>
-        <ExamItem exam={exam} id={_id} />
+        <ExamItem exam={exam} commonId={commonId} />
       </div>
     </div>
   );

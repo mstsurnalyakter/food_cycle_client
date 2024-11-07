@@ -1,256 +1,349 @@
+// [
+//   {
+//     "title": "Lesson 1",
+//     "commonId": "lesson1",
+//     "image": "https://i.postimg.cc/6QZ5jM8y/lesson1.png",
+//     "items": ["Animated Story", "Quiz"],
+//     "details": {
+//       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
+//       "title": "What is Food Waste",
+//       "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+//       "vedio_completed": 40,
+//       "exam": {
+//         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
+//         "title": "Quiz Time ",
+//         "items": ["3 Question with objective", "0 Question without objective"],
+//         "exam_details": [
+//           {
+//             "exam_detail_id": "1",
+//             "exam_detail_title": "What is food waste?",
+//             "exam_detail_items": [
+//               "Eating all the food on your plate",
+//               "Throwing away food we could still eat",
+//               "Cooking a delicious meal",
+//               "Sharing food with friends"
+//             ],
+//             "answer": "Throwing away food we could still eat"
+//           },
+//           {
+//             "exam_detail_id": "2",
+//             "exam_detail_title": "What can we do instead of wasting food?",
+//             "exam_detail_items": [
+//               "Throw it away quickly",
+//               "Save it for later or share it",
+//               "Hide it in the fridge and forget about it",
+//               "Buy even more food"
+//             ],
+//             "answer": "Save it for later or share it"
+//           },
+//           {
+//             "exam_detail_id": "3",
+//             "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+//             "exam_detail_items": [
+//               "Because we don’t buy enough",
+//               "Because we eat too much",
+//               "Because we buy more food than we need",
+//               "Because food tastes good"
+//             ],
+//             "answer": "Because we buy more food than we need"
+//           }
+//         ]
+//       }
+//     }
+//   },
+//   {
+//     "title": "Lesson 2",
+//     "commonId": "lesson2",
+//     "image": "https://i.postimg.cc/B6GZd2FN/lesson2.png",
+//     "items": ["Animated Story", "Quiz"],
+//     "details": {
+//       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
+//       "title": "What is Food Waste",
+//       "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+//       "vedio_completed": 40,
+//       "exam": {
+//         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
+//         "title": "Quiz Time ",
+//         "items": ["3 Question with objective", "0 Question without objective"],
+//         "exam_details": [
+//           {
+//             "exam_detail_id": "1",
+//             "exam_detail_title": "What is food waste?",
+//             "exam_detail_items": [
+//               "Eating all the food on your plate",
+//               "Throwing away food we could still eat",
+//               "Cooking a delicious meal",
+//               "Sharing food with friends"
+//             ],
+//             "answer": "Throwing away food we could still eat"
+//           },
+//           {
+//             "exam_detail_id": "2",
+//             "exam_detail_title": "What can we do instead of wasting food?",
+//             "exam_detail_items": [
+//               "Throw it away quickly",
+//               "Save it for later or share it",
+//               "Hide it in the fridge and forget about it",
+//               "Buy even more food"
+//             ],
+//             "answer": "Save it for later or share it"
+//           },
+//           {
+//             "exam_detail_id": "3",
+//             "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+//             "exam_detail_items": [
+//               "Because we don’t buy enough",
+//               "Because we eat too much",
+//               "Because we buy more food than we need",
+//               "Because food tastes good"
+//             ],
+//             "answer": "Because we buy more food than we need"
+//           }
+//         ]
+//       }
+//     }
+//   },
+//   {
+//     "title": "Lesson 3",
+//     "commonId": "lesson3",
+//     "image": "https://i.postimg.cc/Ss7Qqj74/lesson3.png",
+//     "items": ["Animated Story", "Quiz"],
+//     "details": {
+//       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
+//       "title": "What is Food Waste",
+//       "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+//       "vedio_completed": 40,
+//       "exam": {
+//         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
+//         "title": "Quiz Time ",
+//         "items": ["3 Question with objective", "0 Question without objective"],
+//         "exam_details": [
+//           {
+//             "exam_detail_id": "1",
+//             "exam_detail_title": "What is food waste?",
+//             "exam_detail_items": [
+//               "Eating all the food on your plate",
+//               "Throwing away food we could still eat",
+//               "Cooking a delicious meal",
+//               "Sharing food with friends"
+//             ],
+//             "answer": "Throwing away food we could still eat"
+//           },
+//           {
+//             "exam_detail_id": "2",
+//             "exam_detail_title": "What can we do instead of wasting food?",
+//             "exam_detail_items": [
+//               "Throw it away quickly",
+//               "Save it for later or share it",
+//               "Hide it in the fridge and forget about it",
+//               "Buy even more food"
+//             ],
+//             "answer": "Save it for later or share it"
+//           },
+//           {
+//             "exam_detail_id": "3",
+//             "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+//             "exam_detail_items": [
+//               "Because we don’t buy enough",
+//               "Because we eat too much",
+//               "Because we buy more food than we need",
+//               "Because food tastes good"
+//             ],
+//             "answer": "Because we buy more food than we need"
+//           }
+//         ]
+//       }
+//     }
+//   },
+//   {
+//     "title": "Lesson 4",
+//     "commonId": "lesson4",
+//     "image": "https://i.postimg.cc/zvxJbMcP/lesson4.png",
+//     "items": ["Animated Story", "Quiz"],
+//     "details": {
+//       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
+//       "title": "What is Food Waste",
+//       "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+//       "vedio_completed": 40,
+//       "exam": {
+//         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
+//         "title": "Quiz Time ",
+//         "items": ["3 Question with objective", "0 Question without objective"],
+//         "exam_details": [
+//           {
+//             "exam_detail_id": "1",
+//             "exam_detail_title": "What is food waste?",
+//             "exam_detail_items": [
+//               "Eating all the food on your plate",
+//               "Throwing away food we could still eat",
+//               "Cooking a delicious meal",
+//               "Sharing food with friends"
+//             ],
+//             "answer": "Throwing away food we could still eat"
+//           },
+//           {
+//             "exam_detail_id": "2",
+//             "exam_detail_title": "What can we do instead of wasting food?",
+//             "exam_detail_items": [
+//               "Throw it away quickly",
+//               "Save it for later or share it",
+//               "Hide it in the fridge and forget about it",
+//               "Buy even more food"
+//             ],
+//             "answer": "Save it for later or share it"
+//           },
+//           {
+//             "exam_detail_id": "3",
+//             "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+//             "exam_detail_items": [
+//               "Because we don’t buy enough",
+//               "Because we eat too much",
+//               "Because we buy more food than we need",
+//               "Because food tastes good"
+//             ],
+//             "answer": "Because we buy more food than we need"
+//           }
+//         ]
+//       }
+//     }
+//   },
+//   {
+//     "title": "Lesson 5",
+//     "commonId": "lesson5",
+//     "image": "https://i.postimg.cc/HWzWhck4/lesson5.png",
+//     "items": ["Animated Story", "Quiz"],
+//     "details": {
+//       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
+//       "title": "What is Food Waste",
+//       "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+//       "vedio_completed": 40,
+//       "exam": {
+//         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
+//         "title": "Quiz Time ",
+//         "items": ["3 Question with objective", "0 Question without objective"],
+//         "exam_details": [
+//           {
+//             "exam_detail_id": "1",
+//             "exam_detail_title": "What is food waste?",
+//             "exam_detail_items": [
+//               "Eating all the food on your plate",
+//               "Throwing away food we could still eat",
+//               "Cooking a delicious meal",
+//               "Sharing food with friends"
+//             ],
+//             "answer": "Throwing away food we could still eat"
+//           },
+//           {
+//             "exam_detail_id": "2",
+//             "exam_detail_title": "What can we do instead of wasting food?",
+//             "exam_detail_items": [
+//               "Throw it away quickly",
+//               "Save it for later or share it",
+//               "Hide it in the fridge and forget about it",
+//               "Buy even more food"
+//             ],
+//             "answer": "Save it for later or share it"
+//           },
+//           {
+//             "exam_detail_id": "3",
+//             "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
+//             "exam_detail_items": [
+//               "Because we don’t buy enough",
+//               "Because we eat too much",
+//               "Because we buy more food than we need",
+//               "Because food tastes good"
+//             ],
+//             "answer": "Because we buy more food than we need"
+//           }
+//         ]
+//       }
+//     }
+//   }
+// ]
+
 [
   {
     "title": "Lesson 1",
+    "commonId": "lesson1",
     "image": "https://i.postimg.cc/6QZ5jM8y/lesson1.png",
     "items": ["Animated Story", "Quiz"],
     "details": {
       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
       "title": "What is Food Waste",
-      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers). Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
       "vedio_completed": 40,
       "exam": {
         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
         "title": "Quiz Time ",
-        "items": ["3 Question with objective", "0 Question without objective"],
-        "exam_details": [
-          {
-            "exam_detail_id": "1",
-            "exam_detail_title": "What is food waste?",
-            "exam_detail_items": [
-              "Eating all the food on your plate",
-              "Throwing away food we could still eat",
-              "Cooking a delicious meal",
-              "Sharing food with friends"
-            ],
-            "answer": "Throwing away food we could still eat"
-          },
-          {
-            "exam_detail_id": "2",
-            "exam_detail_title": "What can we do instead of wasting food?",
-            "exam_detail_items": [
-              "Throw it away quickly",
-              "Save it for later or share it",
-              "Hide it in the fridge and forget about it",
-              "Buy even more food"
-            ],
-            "answer": "Save it for later or share it"
-          },
-          {
-            "exam_detail_id": "3",
-            "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
-            "exam_detail_items": [
-              "Because we don’t buy enough",
-              "Because we eat too much",
-              "Because we buy more food than we need",
-              "Because food tastes good"
-            ],
-            "answer": "Because we buy more food than we need"
-          }
-        ]
+        "items": ["3 Question with objective", "0 Question without objective"]
       }
     }
   },
   {
     "title": "Lesson 2",
+    "commonId": "lesson2",
     "image": "https://i.postimg.cc/B6GZd2FN/lesson2.png",
     "items": ["Animated Story", "Quiz"],
     "details": {
       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
       "title": "What is Food Waste",
-      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers). Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
       "vedio_completed": 40,
       "exam": {
         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
         "title": "Quiz Time ",
-        "items": ["3 Question with objective", "0 Question without objective"],
-        "exam_details": [
-          {
-            "exam_detail_id": "1",
-            "exam_detail_title": "What is food waste?",
-            "exam_detail_items": [
-              "Eating all the food on your plate",
-              "Throwing away food we could still eat",
-              "Cooking a delicious meal",
-              "Sharing food with friends"
-            ],
-            "answer": "Throwing away food we could still eat"
-          },
-          {
-            "exam_detail_id": "2",
-            "exam_detail_title": "What can we do instead of wasting food?",
-            "exam_detail_items": [
-              "Throw it away quickly",
-              "Save it for later or share it",
-              "Hide it in the fridge and forget about it",
-              "Buy even more food"
-            ],
-            "answer": "Save it for later or share it"
-          },
-          {
-            "exam_detail_id": "3",
-            "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
-            "exam_detail_items": [
-              "Because we don’t buy enough",
-              "Because we eat too much",
-              "Because we buy more food than we need",
-              "Because food tastes good"
-            ],
-            "answer": "Because we buy more food than we need"
-          }
-        ]
+        "items": ["3 Question with objective", "0 Question without objective"]
       }
     }
   },
   {
     "title": "Lesson 3",
+    "commonId": "lesson3",
     "image": "https://i.postimg.cc/Ss7Qqj74/lesson3.png",
     "items": ["Animated Story", "Quiz"],
     "details": {
       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
       "title": "What is Food Waste",
-      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers). Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
       "vedio_completed": 40,
       "exam": {
         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
         "title": "Quiz Time ",
-        "items": ["3 Question with objective", "0 Question without objective"],
-        "exam_details": [
-          {
-            "exam_detail_id": "1",
-            "exam_detail_title": "What is food waste?",
-            "exam_detail_items": [
-              "Eating all the food on your plate",
-              "Throwing away food we could still eat",
-              "Cooking a delicious meal",
-              "Sharing food with friends"
-            ],
-            "answer": "Throwing away food we could still eat"
-          },
-          {
-            "exam_detail_id": "2",
-            "exam_detail_title": "What can we do instead of wasting food?",
-            "exam_detail_items": [
-              "Throw it away quickly",
-              "Save it for later or share it",
-              "Hide it in the fridge and forget about it",
-              "Buy even more food"
-            ],
-            "answer": "Save it for later or share it"
-          },
-          {
-            "exam_detail_id": "3",
-            "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
-            "exam_detail_items": [
-              "Because we don’t buy enough",
-              "Because we eat too much",
-              "Because we buy more food than we need",
-              "Because food tastes good"
-            ],
-            "answer": "Because we buy more food than we need"
-          }
-        ]
+        "items": ["3 Question with objective", "0 Question without objective"]
       }
     }
   },
   {
     "title": "Lesson 4",
+    "commonId": "lesson4",
     "image": "https://i.postimg.cc/zvxJbMcP/lesson4.png",
     "items": ["Animated Story", "Quiz"],
     "details": {
       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
       "title": "What is Food Waste",
-      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers). Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
       "vedio_completed": 40,
       "exam": {
         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
         "title": "Quiz Time ",
-        "items": ["3 Question with objective", "0 Question without objective"],
-        "exam_details": [
-          {
-            "exam_detail_id": "1",
-            "exam_detail_title": "What is food waste?",
-            "exam_detail_items": [
-              "Eating all the food on your plate",
-              "Throwing away food we could still eat",
-              "Cooking a delicious meal",
-              "Sharing food with friends"
-            ],
-            "answer": "Throwing away food we could still eat"
-          },
-          {
-            "exam_detail_id": "2",
-            "exam_detail_title": "What can we do instead of wasting food?",
-            "exam_detail_items": [
-              "Throw it away quickly",
-              "Save it for later or share it",
-              "Hide it in the fridge and forget about it",
-              "Buy even more food"
-            ],
-            "answer": "Save it for later or share it"
-          },
-          {
-            "exam_detail_id": "3",
-            "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
-            "exam_detail_items": [
-              "Because we don’t buy enough",
-              "Because we eat too much",
-              "Because we buy more food than we need",
-              "Because food tastes good"
-            ],
-            "answer": "Because we buy more food than we need"
-          }
-        ]
+        "items": ["3 Question with objective", "0 Question without objective"]
       }
     }
   },
   {
     "title": "Lesson 5",
+    "commonId": "lesson5",
     "image": "https://i.postimg.cc/HWzWhck4/lesson5.png",
     "items": ["Animated Story", "Quiz"],
     "details": {
       "video": "https://www.youtube.com/embed/ZA8wXYAwc5o",
       "title": "What is Food Waste",
-      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers). Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
+      "description": "A colorful cartoon video introducing the concept of food waste. The video will show examples of food that gets thrown away and explain why it happens (e.g., buying too much, not eating leftovers).Use simple examples like throwing away half-eaten fruit or bread that goes stale.",
       "vedio_completed": 40,
       "exam": {
         "image": "https://i.postimg.cc/0NsLvnt6/exam1.png",
         "title": "Quiz Time ",
-        "items": ["3 Question with objective", "0 Question without objective"],
-        "exam_details": [
-          {
-            "exam_detail_id": "1",
-            "exam_detail_title": "What is food waste?",
-            "exam_detail_items": [
-              "Eating all the food on your plate",
-              "Throwing away food we could still eat",
-              "Cooking a delicious meal",
-              "Sharing food with friends"
-            ],
-            "answer": "Throwing away food we could still eat"
-          },
-          {
-            "exam_detail_id": "2",
-            "exam_detail_title": "What can we do instead of wasting food?",
-            "exam_detail_items": [
-              "Throw it away quickly",
-              "Save it for later or share it",
-              "Hide it in the fridge and forget about it",
-              "Buy even more food"
-            ],
-            "answer": "Save it for later or share it"
-          },
-          {
-            "exam_detail_id": "3",
-            "exam_detail_title": "Throwing away food we could still eat Why do we waste food?",
-            "exam_detail_items": [
-              "Because we don’t buy enough",
-              "Because we eat too much",
-              "Because we buy more food than we need",
-              "Because food tastes good"
-            ],
-            "answer": "Because we buy more food than we need"
-          }
-        ]
+        "items": ["3 Question with objective", "0 Question without objective"]
       }
     }
   }

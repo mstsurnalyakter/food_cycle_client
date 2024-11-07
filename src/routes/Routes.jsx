@@ -8,6 +8,7 @@ import FoodWise from "../page/FoodWise/FoodWise";
 import FoodWiseDetailPage from "../page/FoodWiseDetailsPage.jsx/FoodWiseDetailPage";
 import Child from "../page/Child/Child";
 import ChildContentDetail from "../page/ChildContentDetail/ChildContentDetail";
+import QuizPage from "../page/QuizPage/QuizPage";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/child_content_detail/:id",
         element: <ChildContentDetail />,
+      },
+      {
+        path: "/quiz/:commonId",
+        element: <QuizPage />,
       },
     ],
   },
